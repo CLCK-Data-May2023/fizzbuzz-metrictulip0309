@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[4]:
 
 
-for i in range (101):
+for i in range (1,101):
+    if 1 == 0:
+        continue
     if i % 3 == 0 and i % 5 == 0:
         print("fizzbuzz")
         continue
@@ -15,4 +17,10 @@ for i in range (101):
         print("buzz")
         continue
     print(i)
+
+
+# In[ ]:
+
+
+
 
